@@ -24,7 +24,11 @@ int main()
 		     }
 	     case 'm':
 		     {
+<<<<<<< HEAD
                        cout<<"Product is "<<num1*num2;
+=======
+                       cout<<"Priduct is "<<num1*num2;
+>>>>>>> version1calci
 		       break;
 		     }
 	     case 'd':
