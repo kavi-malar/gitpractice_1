@@ -22,6 +22,16 @@ int main()
                          cout<<"Subtraction result is "<<num1-num2;
 			 break;
 		     }
+	     case 'm':
+		     {
+                       cout<<"Priduct is "<<num1*num2;
+		       break;
+		     }
+	     case 'd':
+		     {
+                       cout<<"Division result is "<<num1/num2;
+		       break;
+		     }
 	     default:
 		     {
                         cout<<"Invalid";
