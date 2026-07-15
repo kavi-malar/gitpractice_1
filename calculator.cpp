@@ -8,7 +8,7 @@ int main()
   cin>>num1;
   cout<<"Enter num2:";
 	  cin>>num2;
-	  cout<<"Enter operation(a-add,s-sub):";
+	  cout<<"Enter operation(a-add,s-sub,m-mul,d-div):";
 	  cin>>ch;
 	  switch(ch)
 	  {
@@ -21,6 +21,16 @@ int main()
 		     {
                          cout<<"Subtraction result is "<<num1-num2;
 			 break;
+		     }
+	     case 'm':
+		     {
+                       cout<<"Product is "<<num1*num2;
+		       break;
+		     }
+	     case 'd':
+		     {
+                       cout<<"Division result is "<<num1/num2;
+		       break;
 		     }
 	     default:
 		     {
